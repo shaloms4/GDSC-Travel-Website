@@ -132,6 +132,7 @@ p{
     text-align: center;
     margin: 5px;
     margin-bottom: 40px;
+    font-size: 16px;
 }
 .discover-btn button:hover{
     background-color: #00823f;
