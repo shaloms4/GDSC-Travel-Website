@@ -152,3 +152,8 @@ p{
 .left-corner{
     margin-left: auto;
 }
+.underlined {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
