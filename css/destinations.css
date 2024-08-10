@@ -87,10 +87,6 @@ p{
     min-width: 100px;
 }
 
-.buttons button:hover {
-    background-color: #00A651;
-}
-
 .centered-content{
     display: flex;
     flex-direction: column;
@@ -155,5 +151,8 @@ p{
 .underlined {
     text-decoration: underline;
     cursor: pointer;
+}
+.buttons .green-color{
+    background-color: #00A651;
 }
 
