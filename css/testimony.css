@@ -1,9 +1,7 @@
-body{
+body {
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #ECF1F0;
+    position: relative;
 }
 
 .container {
@@ -40,19 +38,46 @@ body{
     object-fit: cover;
     border: 2px solid white;
 }
-.name{
+
+.name {
     display: flex;
     justify-content: center;
     text-align: center;
     font-weight: bold;
 }
-h1{
+
+h1 {
     font-size: 40px;
     margin-bottom: 50px;
     margin-top: 50px;
 }
-.testimony-container{
+
+.testimony-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.corner-image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    height: 300px;
+    margin-top: 170px;
+}
+
+.corner-image.left {
+    left: 0;
+}
+
+.corner-image.right {
+    right: 0;
+}
+
+.corner-image img {
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
