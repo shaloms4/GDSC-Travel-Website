@@ -1,0 +1,88 @@
+.book-trip{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.book-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.book-choice{
+    display: flex;
+    flex-direction: column;
+    
+}
+.choice-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 150px;
+}
+.choice-row img{
+    width: 50px;
+    margin-right: 20px;
+}
+.choice-card {
+    display: flex;
+    flex-direction: column;
+    padding: 15px; 
+    background-color: #FFFFFF; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 255, 0.3);
+    max-width: 300px; 
+    position: relative;
+}
+.choice-card-row .fa{
+    margin-right: 10px;
+}
+.cp{
+    color: #5E6282;
+}
+.bold{
+    font-weight: bold;
+}
+.book-title h1 {
+    margin-bottom: 0; 
+}
+
+.book-title p {
+    margin-top: 0; 
+}
+
+.profile-img {
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%; 
+    margin-right: 10px;
+}
+
+.small-card {
+    position: absolute;
+    bottom: 40px; 
+    right: -80px; 
+    display: flex;
+    flex-direction: row;
+    background-color: #fff; 
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    width: 220px; 
+}
+
+.small-card-content p {
+    margin: 2px 0; 
+}
+
+.progress-bar {
+    margin-top: 10px;
+    height: 4px;
+    width: 40%; 
+    background-color:#8A79DF;
+    border-radius: 2px;
+}
+.black-color{
+    color: #080809;
+}
