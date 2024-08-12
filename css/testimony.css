@@ -54,7 +54,13 @@ body {
   margin-right: 30px;
   font-weight: bold;  
   cursor: pointer;
+  text-decoration: none;
+  color: #fff;
 }
+
+.container-1 .links a:hover {
+    text-decoration: underline;
+  }
 
 .container-1 .main{
     display: flex;
