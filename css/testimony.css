@@ -597,30 +597,30 @@ body {
     padding-bottom: 80px;
 }
 
+.testimony-color {
+    position: relative;
+    padding: 20px; 
+}
+  
 .corner-image {
     position: absolute;
-    top: 0;
-    bottom: 0;
-    display: flex;
-    align-items: center;
+    width: 100px;
+    height: auto;
+    margin-top: 100px;
+    padding-top: 20px;
     height: 300px;
-    margin-top: 170px;
 }
-
-.corner-image.left {
+  
+.left-corner {
+    top: 0;
     left: 0;
 }
-
-.corner-image.right {
+  
+ .right-corner {
+    top: 0;
     right: 0;
 }
-
-.corner-image img {
-    height: 100%;
-    object-fit: cover;
-    display: block;
-}
-
+  
 /* Footer */
 
 footer {
