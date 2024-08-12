@@ -4,498 +4,7 @@ body {
     padding: 0;
 }
 
-.testimony-color{
-    background-color: #ECF1F0;
-}
-.container {
-    position: relative;
-    width: 800px; 
-}
-
-.main-image {
-    width: 100%;
-    display: block;
-}
-
-.testimony-card {
-    position: absolute;
-    bottom: -30px; 
-    left: 50%;
-    transform: translateX(-50%);
-    width: 60%; 
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
-    text-align: center;
-}
-
-.tiny-image {
-    position: absolute;
-    top: -25px; 
-    left: 50%;
-    transform: translateX(-50%);
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 2px solid white;
-}
-
-.name {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-weight: bold;
-}
-
-.testimony h1 {
-    font-size: 40px;
-    margin-bottom: 50px;
-    margin-top: 50px;
-}
-
-.testimony-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 80px;
-}
-
-.corner-image {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    height: 300px;
-    margin-top: 170px;
-}
-
-.corner-image.left {
-    left: 0;
-}
-
-.corner-image.right {
-    right: 0;
-}
-
-.corner-image img {
-    height: 100%;
-    object-fit: cover;
-    display: block;
-}
-
-footer {
-    width: 100%;
-    position: absolute;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-}
-.top-col {
-    text-align: center;
-    align-items: center;
-    width: 60%;
-    background-color: #9FFFEC;
-    height: 200px;
-    border-top-left-radius: 50px;
-    margin-top: 60px;
-    position: relative;
-    margin-bottom: 30px;
-    padding-top: 20px;
-}
-.telegram-img {
-    position: absolute;
-    top: -10px;
-    right: -10px;
-    width: 40px;
-    height: auto;
-}
-.buts {
-    margin: 0 auto;
-}
-.buts p {
-    color: #5E6282;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-bottom: 15px;
-    font-size: 18px;
-    font-weight: normal;
-}
-.buts .email-container {
-    position: relative;
-    display: inline-flex;
-    align-items: center;
-}
-.buts input[type="email"] {
-    padding: 10px 10px 10px 40px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    font-size: 16px;
-}
-.buts .email-container i {
-    position: absolute;
-    left: 10px;
-    color: #ccc;
-}
-.buts button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #27ae60;
-    color: white;
-    cursor: pointer;
-    font-size: large;
-}
-.row {
-    width: 85%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center; 
-    text-align: center;
-    margin-top: 40px;
-    position: relative;
-}
-.col, .travel {
-    flex: 1;
-    margin: 10px;
-    max-width: 300px; 
-}
-.col p{
-    color: #5E6282;
-}
-.travel {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.col h3, .travel h3 {
-    width: fit-content;
-    margin-bottom: 40px;
-}
-.col button {
-    width: 100px;
-    padding: 6px;
-    border-radius: 10px;
-    background-color: black;
-    color: white;
-}
-.google-play, .apple-logo {
-    width: 30px; 
-    height: auto;
-}
-.google-apple img {
-    margin-right: 10px;
-}
-.google-play {
-    width: 90px;
-}
-.apple-logo {
-    width: 80px;
-}
-.social-media img {
-    width: 60px;
-    height: auto;
-    margin: 5px;
-}
-.col a {
-    display: flex;
-    gap: 20px;
-    margin: 10px;
-    margin-top: 30px;
-    color: black;
-    text-decoration: none;
-    color: #5E6282;
-}
-.travel p, h3 {
-    color: black;
-}
-.last-text {
-    display: flex;
-    align-items: center;
-    margin-top: 30px;
-}
-.last-text p {
-    color: #5E6282;
-}
-.travel p{
-    color: #5E6282;
-}
-.travel h3{
-    font-family: Laila;
-}
-.footer-color{
-    background-color: #fff;
-}
-
-
-
-.book{
-    padding-bottom: 60px;
-}
-.book-trip{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.book-title{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 30px;
-}
-.book-choice{
-    display: flex;
-    flex-direction: column;
-    
-}
-.choice-row{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-right: 150px;
-}
-.choice-row img{
-    width: 50px;
-    margin-right: 20px;
-}
-.choice-card {
-    display: flex;
-    flex-direction: column;
-    padding: 15px; 
-    background-color: #FFFFFF; 
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 255, 0.3);
-    max-width: 250px; 
-    position: relative;
-}
-.choice-card-row .fa{
-    margin-right: 10px;
-} 
-.cp{
-    color: #5E6282;
-}
-.bold{
-    font-weight: bold;
-}
-.book-title h1 {
-    margin-bottom: 0; 
-}
-
-.book-title p {
-    margin-top: 0; 
-}
-
-.profile-img {
-    width: 40px; 
-    height: 40px;
-    border-radius: 50%; 
-    margin-right: 10px;
-}
-
-.small-card {
-    position: absolute;
-    bottom: 40px; 
-    right: -80px; 
-    display: flex;
-    flex-direction: row;
-    background-color: #fff; 
-    border-radius: 8px;
-    padding: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-    width: 220px; 
-}
-
-.small-card-content p {
-    margin: 2px 0; 
-}
-
-.progress-bar {
-    margin-top: 10px;
-    height: 4px;
-    width: 40%; 
-    background-color:#8A79DF;
-    border-radius: 2px;
-}
-.black-color{
-    color: #080809;
-}
-.purple{
-    color: #8A79DF;
-}
-.book .fa{
-    margin-right: 10px;
-    
-}
-
-
-
-
-.destinations-title h1{
-    text-align: center;
-    margin-bottom: 50px;
-    font-size: 40px;
-    margin-top: 50px;
-}
-.destinations{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    background-color: #ffffff;
-    background-image: url('../images/world_image.png');
-    background-position: left;
-    background-size: 600px;
-    background-repeat: no-repeat;
-    margin: 0
-}
-.destinations .destination_places{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border-radius: 10px;
-    margin-right: 100px;
-    margin-bottom: 20px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-    width: 450px;
-}
-.destinations .destination_places:hover {
-    transform: translateY(-5px);
-    background-color: #f0f0f0; 
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); 
-}
-.destination_places img{
-    height: 150px;
-    width: auto;
-    margin-right: 30px;
-    object-fit: contain;
-}
-.paragraph2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 40px;
-}
-.paragraph2 p {
-    margin: 0;
-}
-.destinations p{
-    margin-right: 15px;
-    font-weight: 500;
-    font-size: 16px;
-}
-.destinations .fa{
-    margin-left: auto;
-    padding: 20px;
-}
-.packages{
-    background-color: #ECF1F0;
-    margin: 0;
-    padding: 0;
-}
-.title h1{
-    padding-top: 50px;
-}
-.buttons {
-    display: flex;
-    flex-direction: row;
-    gap: 60px; 
-    justify-content: center; 
-    padding: 20px;
-    max-width: 300px;
-    margin: 0 auto;
-}
-
-.buttons button {
-    background-color: #666666;
-    color: #ffffff;
-    border-radius: 5px;
-    padding: 10px 15px; 
-    border: none;
-    flex: 1; 
-    text-align: center;
-    margin: 5px;
-    min-width: 100px;
-}
-
-.centered-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.cards {
-    display: flex;
-    flex-direction: row;
-    gap: 30px; 
-    padding: 20px; 
-    box-sizing: border-box; 
-    margin-bottom: 40px;
-}
-
-.cards .card {
-    background-color: #fff; 
-    border-radius: 10px;
-    overflow: hidden; 
-    width: 300px; 
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-    margin: 0; 
-}
-.cards .card img {
-    width: 100%; 
-    height: 200px; 
-    object-fit: cover; 
-}
-.discover-btn{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.discover-btn button{
-    background-color: #00A651;
-    border: none;
-    color: #ffffff;
-    border-radius: 5px;
-    padding: 10px 25px; 
-    text-align: center;
-    margin: 5px;
-    margin-bottom: 40px;
-    font-size: 16px;
-}
-.discover-btn button:hover{
-    background-color: #00823f;
-}
-.paragraph1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: right;
-}
-.paragraph1 p{
-    margin-right: 0;
-}
-.paragraph-container{
-    padding: 10px;
-}
-.left-corner{
-    margin-left: auto;
-}
-.underlined {
-    text-decoration: underline;
-    cursor: pointer;
-}
-.buttons .green-color{
-    background-color: #00A651;
-}
-
-.bold{
-    font-weight: bold;
-}  
-
-
-/* home */
-
+/* Home and Services */
 
 .container-1 *{
     margin: 0px;
@@ -702,3 +211,498 @@ footer {
     background: linear-gradient(to top, transparent, white);
     z-index: 2;
 }
+
+/* Destinations and Packages */
+
+.destinations-title h1{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+    margin-top: 50px;
+}
+.destinations{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #ffffff;
+    background-image: url('../images/world_image.png');
+    background-position: left;
+    background-size: 600px;
+    background-repeat: no-repeat;
+    margin: 0
+}
+.destinations .destination_places{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    width: 450px;
+}
+.destinations .destination_places:hover {
+    transform: translateY(-5px);
+    background-color: #f0f0f0; 
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); 
+}
+.destination_places img{
+    height: 150px;
+    width: auto;
+    margin-right: 30px;
+    object-fit: contain;
+}
+.paragraph2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 40px;
+}
+.paragraph2 p {
+    margin: 0;
+}
+.destinations p{
+    margin-right: 15px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.destinations .fa{
+    margin-left: auto;
+    padding: 20px;
+}
+.packages{
+    background-color: #ECF1F0;
+    margin: 0;
+    padding: 0;
+}
+.title h1{
+    padding-top: 50px;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 60px; 
+    justify-content: center; 
+    padding: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.buttons button {
+    background-color: #666666;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 15px; 
+    border: none;
+    flex: 1; 
+    text-align: center;
+    margin: 5px;
+    min-width: 100px;
+}
+
+.centered-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    gap: 30px; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    margin-bottom: 40px;
+}
+
+.cards .card {
+    background-color: #fff; 
+    border-radius: 10px;
+    overflow: hidden; 
+    width: 300px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 0; 
+}
+.cards .card img {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+}
+.discover-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.discover-btn button{
+    background-color: #00A651;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 25px; 
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+.discover-btn button:hover{
+    background-color: #00823f;
+}
+.paragraph1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: right;
+}
+.paragraph1 p{
+    margin-right: 0;
+}
+.paragraph-container{
+    padding: 10px;
+}
+.left-corner{
+    margin-left: auto;
+}
+.underlined {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.buttons .green-color{
+    background-color: #00A651;
+}
+
+.bold{
+    font-weight: bold;
+}  
+
+/* Book Trips */
+
+
+
+.book{
+    padding-bottom: 60px;
+}
+.book-trip{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.book-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.book-choice{
+    display: flex;
+    flex-direction: column;
+    
+}
+.choice-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 150px;
+}
+.choice-row img{
+    width: 50px;
+    margin-right: 20px;
+}
+.choice-card {
+    display: flex;
+    flex-direction: column;
+    padding: 15px; 
+    background-color: #FFFFFF; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 255, 0.3);
+    max-width: 250px; 
+    position: relative;
+}
+.choice-card-row .fa{
+    margin-right: 10px;
+} 
+.cp{
+    color: #5E6282;
+}
+.bold{
+    font-weight: bold;
+}
+.book-title h1 {
+    margin-bottom: 0; 
+}
+
+.book-title p {
+    margin-top: 0; 
+}
+
+.profile-img {
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%; 
+    margin-right: 10px;
+}
+
+.small-card {
+    position: absolute;
+    bottom: 40px; 
+    right: -80px; 
+    display: flex;
+    flex-direction: row;
+    background-color: #fff; 
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    width: 220px; 
+}
+
+.small-card-content p {
+    margin: 2px 0; 
+}
+
+.progress-bar {
+    margin-top: 10px;
+    height: 4px;
+    width: 40%; 
+    background-color:#8A79DF;
+    border-radius: 2px;
+}
+.black-color{
+    color: #080809;
+}
+.purple{
+    color: #8A79DF;
+}
+.book .fa{
+    margin-right: 10px;
+    
+}
+
+/* What people say about us */
+
+.testimony-color{
+    background-color: #ECF1F0;
+}
+.container {
+    position: relative;
+    width: 800px; 
+}
+
+.main-image {
+    width: 100%;
+    display: block;
+}
+
+.testimony-card {
+    position: absolute;
+    bottom: -30px; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%; 
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.tiny-image {
+    position: absolute;
+    top: -25px; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.testimony h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.testimony-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.corner-image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    height: 300px;
+    margin-top: 170px;
+}
+
+.corner-image.left {
+    left: 0;
+}
+
+.corner-image.right {
+    right: 0;
+}
+
+.corner-image img {
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    position: absolute;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.top-col {
+    text-align: center;
+    align-items: center;
+    width: 60%;
+    background-color: #9FFFEC;
+    height: 200px;
+    border-top-left-radius: 50px;
+    margin-top: 60px;
+    position: relative;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+.telegram-img {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 40px;
+    height: auto;
+}
+.buts {
+    margin: 0 auto;
+}
+.buts p {
+    color: #5E6282;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: normal;
+}
+.buts .email-container {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+.buts input[type="email"] {
+    padding: 10px 10px 10px 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+.buts .email-container i {
+    position: absolute;
+    left: 10px;
+    color: #ccc;
+}
+.buts button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #27ae60;
+    color: white;
+    cursor: pointer;
+    font-size: large;
+}
+.row {
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center; 
+    text-align: center;
+    margin-top: 40px;
+    position: relative;
+}
+.col, .travel {
+    flex: 1;
+    margin: 10px;
+    max-width: 300px; 
+}
+.col p{
+    color: #5E6282;
+}
+.travel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.col h3, .travel h3 {
+    width: fit-content;
+    margin-bottom: 40px;
+}
+.col button {
+    width: 100px;
+    padding: 6px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.google-play, .apple-logo {
+    width: 30px; 
+    height: auto;
+}
+.google-apple img {
+    margin-right: 10px;
+}
+.google-play {
+    width: 90px;
+}
+.apple-logo {
+    width: 80px;
+}
+.social-media img {
+    width: 60px;
+    height: auto;
+    margin: 5px;
+}
+.col a {
+    display: flex;
+    gap: 20px;
+    margin: 10px;
+    margin-top: 30px;
+    color: black;
+    text-decoration: none;
+    color: #5E6282;
+}
+.travel p, h3 {
+    color: black;
+}
+.last-text {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.last-text p {
+    color: #5E6282;
+}
+.travel p{
+    color: #5E6282;
+}
+.travel h3{
+    font-family: Laila;
+}
+.footer-color{
+    background-color: #fff;
+}
+
