@@ -31,13 +31,13 @@ body {
     margin-left: 60px;
 }
 .container-1 .logo{
-        font-family: "Laila", serif;
-        font-weight: 700;
-        font-style: normal;
-        width: 76px;
-        margin-bottom: 0;
-        line-height: 1;
-        margin-top: 10px;
+    font-family: "Laila", serif;
+    font-weight: 700;
+    font-style: normal;
+    width: 76px;
+    margin-bottom: 0;
+    line-height: 1;
+    margin-top: 10px;
 }
 
 .container-1 .right-profile .fa-regular{
@@ -55,6 +55,7 @@ body {
   font-weight: bold;  
   cursor: pointer;
 }
+
 .container-1 .main{
     display: flex;
     flex-direction: column;
@@ -64,11 +65,13 @@ body {
     padding: 20px; 
     margin-top: 80px;
 }
+
 .container-1 .main h1{
     margin-bottom: 30px;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
 }
+
 .container-1 .main button{
     background-color: rgba(0, 166, 81, 1);
     border:  1px solid rgba(0, 166, 81, 1);
@@ -81,19 +84,22 @@ body {
     font-weight: 600;
     color: white;
 }
+
 .container-2{
-   
     text-align: center;
     margin-top: 30px;
 }
+
 .container-2 .container-2-1 .service{
     display: flex;
     justify-content: space-between;
     margin: 90px;   
 }
+
 .container-2-1{
     padding: 40px;
 }
+
 .container-2 .box {
     width: 416px;
     height: 232px;
@@ -107,14 +113,17 @@ body {
     flex-direction: column;
     margin-right: 20px;
 }
+
 .container-2 .box p {
     font-weight: normal;
     font-size: initial;
 }
+
 .middle{
     background-color: white;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
+
 .container-2-2 .small-box{
     width: 250px;
     height: 200px;
@@ -124,9 +133,11 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 .container-2-2 .small-box p{
     margin: 20px;
 }
+
 .best{
     text-align: center;
     justify-content: space-between;
@@ -136,16 +147,20 @@ body {
     margin-left: 80px;
     margin-right: 80px;
 }
+
 .years{
     margin-left: 160px;
 }
+
 .history{
     margin-right: 160px;
 }
+
 .best p{
     font-weight: normal;
     font-size: initial;
 }
+
 .container-2 i{
     color: rgba(0, 95, 21, 1);
     margin: 20px;
@@ -155,28 +170,36 @@ body {
 .container-2-2 > h2{
     margin-bottom: 30px;
 }
+
 .container-2-2 > p{
     margin-bottom: 100px;
 }
+
 .container-2 .fa-rocket{
     color: rgba(228, 139, 120, 1);
 }
+
 .container-2 .fa-house{
     color: rgba(0, 184, 224, 1);
 }
+
 .container-1.fa-ticket{
     color: rgba(50, 223, 143, 1);
 }
+
 .container-2 h2{
     font-size: 40px;
 }
+
 .container-1 .main > h1{
     font-size: 40px;
     font-weight: 1000;
 }
+
 .container-1 p{
     font-size: 16px;
 }
+
 .best > p{
     font-size: 20px;
 }
@@ -220,6 +243,7 @@ body {
     font-size: 40px;
     margin-top: 50px;
 }
+
 .destinations{
     display: flex;
     flex-direction: column;
@@ -231,6 +255,7 @@ body {
     background-repeat: no-repeat;
     margin: 0
 }
+
 .destinations .destination_places{
     display: flex;
     flex-direction: row;
@@ -241,43 +266,52 @@ body {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     width: 450px;
 }
+
 .destinations .destination_places:hover {
     transform: translateY(-5px);
     background-color: #f0f0f0; 
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); 
 }
+
 .destination_places img{
     height: 150px;
     width: auto;
     margin-right: 30px;
     object-fit: contain;
 }
+
 .paragraph2{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-right: 40px;
 }
+
 .paragraph2 p {
     margin: 0;
 }
+
 .destinations p{
     margin-right: 15px;
     font-weight: 500;
     font-size: 16px;
 }
+
 .destinations .fa{
     margin-left: auto;
     padding: 20px;
 }
+
 .packages{
     background-color: #ECF1F0;
     margin: 0;
     padding: 0;
 }
+
 .title h1{
     padding-top: 50px;
 }
+
 .buttons {
     display: flex;
     flex-direction: row;
@@ -305,6 +339,7 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
 .cards {
     display: flex;
     flex-direction: row;
@@ -322,16 +357,19 @@ body {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     margin: 0; 
 }
+
 .cards .card img {
     width: 100%; 
     height: 200px; 
     object-fit: cover; 
 }
+
 .discover-btn{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .discover-btn button{
     background-color: #00A651;
     border: none;
@@ -343,28 +381,35 @@ body {
     margin-bottom: 40px;
     font-size: 16px;
 }
+
 .discover-btn button:hover{
     background-color: #00823f;
 }
+
 .paragraph1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     text-align: right;
 }
+
 .paragraph1 p{
     margin-right: 0;
 }
+
 .paragraph-container{
     padding: 10px;
 }
+
 .left-corner{
     margin-left: auto;
 }
+
 .underlined {
     text-decoration: underline;
     cursor: pointer;
 }
+
 .buttons .green-color{
     background-color: #00A651;
 }
@@ -375,38 +420,41 @@ body {
 
 /* Book Trips */
 
-
-
 .book{
     padding-bottom: 60px;
 }
+
 .book-trip{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
+
 .book-title{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 30px;
 }
+
 .book-choice{
     display: flex;
     flex-direction: column;
-    
 }
+
 .choice-row{
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-right: 150px;
 }
+
 .choice-row img{
     width: 50px;
     margin-right: 20px;
 }
+
 .choice-card {
     display: flex;
     flex-direction: column;
@@ -417,15 +465,19 @@ body {
     max-width: 250px; 
     position: relative;
 }
+
 .choice-card-row .fa{
     margin-right: 10px;
 } 
+
 .cp{
     color: #5E6282;
 }
+
 .bold{
     font-weight: bold;
 }
+
 .book-title h1 {
     margin-bottom: 0; 
 }
@@ -465,15 +517,17 @@ body {
     background-color:#8A79DF;
     border-radius: 2px;
 }
+
 .black-color{
     color: #080809;
 }
+
 .purple{
     color: #8A79DF;
 }
+
 .book .fa{
     margin-right: 10px;
-    
 }
 
 /* What people say about us */
@@ -481,6 +535,7 @@ body {
 .testimony-color{
     background-color: #ECF1F0;
 }
+
 .container {
     position: relative;
     width: 800px; 
@@ -570,6 +625,7 @@ footer {
     flex-direction: column;
     align-items: center; 
 }
+
 .top-col {
     text-align: center;
     align-items: center;
@@ -582,6 +638,7 @@ footer {
     margin-bottom: 30px;
     padding-top: 20px;
 }
+
 .telegram-img {
     position: absolute;
     top: -10px;
@@ -589,9 +646,11 @@ footer {
     width: 40px;
     height: auto;
 }
+
 .buts {
     margin: 0 auto;
 }
+
 .buts p {
     color: #5E6282;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -599,22 +658,26 @@ footer {
     font-size: 18px;
     font-weight: normal;
 }
+
 .buts .email-container {
     position: relative;
     display: inline-flex;
     align-items: center;
 }
+
 .buts input[type="email"] {
     padding: 10px 10px 10px 40px;
     border-radius: 5px;
     border: 1px solid #ccc;
     font-size: 16px;
 }
+
 .buts .email-container i {
     position: absolute;
     left: 10px;
     color: #ccc;
 }
+
 .buts button {
     padding: 10px 20px;
     border: none;
@@ -624,6 +687,7 @@ footer {
     cursor: pointer;
     font-size: large;
 }
+
 .row {
     width: 85%;
     display: flex;
@@ -634,23 +698,28 @@ footer {
     margin-top: 40px;
     position: relative;
 }
+
 .col, .travel {
     flex: 1;
     margin: 10px;
     max-width: 300px; 
 }
+
 .col p{
     color: #5E6282;
 }
+
 .travel {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .col h3, .travel h3 {
     width: fit-content;
     margin-bottom: 40px;
 }
+
 .col button {
     width: 100px;
     padding: 6px;
@@ -658,24 +727,30 @@ footer {
     background-color: black;
     color: white;
 }
+
 .google-play, .apple-logo {
     width: 30px; 
     height: auto;
 }
+
 .google-apple img {
     margin-right: 10px;
 }
+
 .google-play {
     width: 90px;
 }
+
 .apple-logo {
     width: 80px;
 }
+
 .social-media img {
     width: 60px;
     height: auto;
     margin: 5px;
 }
+
 .col a {
     display: flex;
     gap: 20px;
@@ -685,24 +760,26 @@ footer {
     text-decoration: none;
     color: #5E6282;
 }
-.travel p, h3 {
+
+h3 {
     color: black;
 }
+
 .last-text {
     display: flex;
     align-items: center;
     margin-top: 30px;
 }
-.last-text p {
+
+.p-color {
     color: #5E6282;
 }
-.travel p{
-    color: #5E6282;
-}
+
 .travel h3{
     font-family: Laila;
 }
+
 .footer-color{
-    background-color: #fff;
+    background-color: #FFFFFF;
 }
 
